@@ -6,12 +6,15 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .body-container{
     display: flex;
     flex-direction: column;
-    align-content: flex-start o
+    align-content: flex-start ;
+    flex-wrap: wrap;
+
 }
 
 .second-container{
@@ -20,6 +23,8 @@
     justify-content: space-between;
     margin-left: 20%;
     margin-right: 20%;
+    flex-wrap: wrap;
+
 }
 
 .second-two-container{
@@ -29,6 +34,8 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
+    flex-wrap: wrap;
+
 }
 
 .third-container{
@@ -36,7 +43,8 @@
     flex-direction: column;
     margin-left: 20%;
     margin-right: 20%;
-    
+    flex-wrap: wrap;
+
 }
 
 .fourth-container{
@@ -49,6 +57,9 @@
     color: #F9FAF8;
     border: 1px solid #3882F6;
     border-radius: 10px;
+    flex-wrap: wrap;
+   position: relative;top: 10%;
+
 }
 
 .hlink1{
