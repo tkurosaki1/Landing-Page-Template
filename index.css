@@ -6,7 +6,6 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    flex-wrap: wrap;
 }
 
 .body-container{
@@ -14,7 +13,6 @@
     flex-direction: column;
     align-content: flex-start ;
     flex-wrap: wrap;
-
 }
 
 .second-container{
@@ -23,8 +21,6 @@
     justify-content: space-between;
     margin-left: 20%;
     margin-right: 20%;
-    flex-wrap: wrap;
-
 }
 
 .second-two-container{
@@ -34,7 +30,6 @@
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10%;
-    flex-wrap: wrap;
 
 }
 
@@ -50,8 +45,8 @@
 .fourth-container{
     background-color: #3882F6;
     font-size: 24px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 12%;
+    margin-right: 10%;
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
@@ -60,6 +55,11 @@
     flex-wrap: wrap;
    position: relative;top: 10%;
 
+}
+
+.fifth-container{
+    display: flex;
+    margin-top: 2.5%;
 }
 
 .hlink1{
@@ -95,6 +95,10 @@
     background-color:#E5E7EB ;
 }
 
+.section5{
+    background-color: #1F2937;
+}
+
 .box-item {
     width: 200px;
     height: 200px;
@@ -127,6 +131,18 @@
     position: relative;bottom: 10px;
 }
 
+.heading4{
+    position: relative; right: -45px; bottom: -20px;
+    font-weight: bolder;
+}
+
+.heading5{
+    margin-top: 4%;
+    font-size: 18px;
+    color: #F9FAF8;
+    position: relative; left: 600px; top: -6px;
+}
+
 .hdiv1{
     color: #F9FAF8;
     font-size: 24px;
@@ -150,11 +166,15 @@
     font-weight: lighter;
 }
 
+.para3{
+    position: relative; right: -45px; bottom: 10px;
+}
+
 .img1{
     align-self: center;
     margin-left: 50%;
     margin-bottom: 10%;
-    position:relative; right:70px; top:-50px;
+    position:relative; right:-10px; top:-50px;
 
 }
 
@@ -170,7 +190,18 @@
     font-size: 17px;
 }
 
+.button2{
+    width: 150px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #3882F6;
+    font-size: 24px;
+    border-radius: 25px;
+    color: #F9FAF8;
+    position: relative;right: -800px; bottom: 65px;
+}
+
 .heading2{
-    position: relative; right: -600px;
+    position: relative; right: -555px;
 }
 
